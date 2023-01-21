@@ -11,7 +11,7 @@ import SwiftUI
 struct AngelsSplitApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplitTabView()
         }
     }
 }

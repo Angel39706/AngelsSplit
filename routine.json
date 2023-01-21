@@ -1,0 +1,106 @@
+{
+  "request": [
+    {
+      "info": "Barbell Bench Press",
+      "description": "4 x 4-6 (2 min Rest)",
+      "id": 1
+      
+    },
+    {
+        "info": "DB Incline Bench Press",
+        "description": "4 x 7-10",
+        "id": 2
+    },
+    {
+        "info": "High to Low Cable Fly",
+        "description": "4 x 10-12",
+        "id": 3
+    },
+    {
+        "info": "DB Side Raise (Slow/Control)",
+        "description": "4 x 10-12",
+        "id": 4
+    },
+    {
+        "info": "DB Front Raise",
+        "description": "3 x 10-12",
+        "id": 5
+    },
+    {
+        "info": "Lying Skullcrushers",
+        "description": "4 x 7-10",
+        "id": 6 
+    },
+    {
+        "day": "Push",
+        "info": "V-Bar Pushdowns",
+        "description": "3 x 8-10",
+        "id": 7
+    },
+    {
+        "info": "Single arm cable",
+        "description": "2 x 8-10",
+        "id": 8
+    },
+    {
+        "info": "Barbell Row",
+        "description": "4 x 6-8 (2 min Rest)",
+        "id": 9
+    },
+    {
+        "info": "Wide Grip Lat Pulldown",
+        "description": "4 x 8-10",
+        "id": 10
+    },
+    {
+        "info": "Cable Lat Pullover",
+        "description": "4 x 8-10",
+        "id": 11
+    },
+    {
+        "info": "Reverse Cable Flys",
+        "description": "4 x 10-12",
+        "id": 12
+    },
+    {
+        "info": "EZ Bar Curls",
+        "description": "3 x 7-10",
+        "id": 13
+    },
+    {
+        "info": "Seated incline DB curl",
+        "description": "3 x 10-12",
+        "id": 14
+    },
+    {
+        "info": "Alertnating Hammer Curl",
+        "description": "2 x 7-10",
+        "id": 15
+    },
+    {
+        "info": "Barbell Squat",
+        "description": "4 x 6-8 (2 min Rest)",
+        "id": 16
+    },
+    {
+        "info": "Hack Squat",
+        "description": "3 x 10-12 (Slow/Control)",
+        "id": 17
+    },
+    {
+        "info": "Quad Extension",
+        "description": "4 x 12-15",
+        "id": 18
+    },
+    {
+        "info": "Hamstring Curl",
+        "description": "3 x 12-15",
+        "id": 19
+    },
+    {
+        "info": "Calf Raises",
+        "description": "4 x 10-12 (2 sec down & 1 sec pause top)",
+        "id": 20
+    }
+  ]
+}
