@@ -9,6 +9,7 @@ import Foundation
 
 struct Split: Decodable, Identifiable {
     let id: Int
+    let day: String
     let info: String
     let description: String
 }
@@ -19,7 +20,7 @@ struct SplitResponse: Decodable {
 
 struct MockData {
     
-    static let sampleSplit =  Split(id: 0001, info: "Calf Raises", description: "4 x 10-12 (2 sec down & 1 sec pause top)")
+    static let sampleSplit =  Split(id: 0001,day: "legs", info: "Calf Raises", description: "4 x 10-12 (2 sec down & 1 sec pause top)")
     
     static let splits = [sampleSplit, sampleSplit, sampleSplit]
 }

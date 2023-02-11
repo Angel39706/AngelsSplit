@@ -15,8 +15,12 @@ struct SplitListView: View {
         NavigationView {
             List(splits, id: \.id){ split in
                 VStack(alignment: .leading, spacing: 10) {
-                    Text(split.info)
-                        .font(.headline)
+                    HStack{
+                        Text(split.day)
+                        Text(split.info)
+                    }
+                    .font(.headline)
+                    
                     Text(split.description)
                         .foregroundColor(Color("brandPrimary"))
                         .fontWeight(.semibold)
