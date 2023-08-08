@@ -17,7 +17,10 @@ struct SplitListView: View {
                 VStack(alignment: .leading, spacing: 10) {
                     HStack{
                         Text(split.day)
+                            .font(.title3)
+                            .fontWeight(.heavy)
                         Text(split.info)
+                            .foregroundColor(Color("descripPrimary"))
                     }
                     .font(.headline)
                     
@@ -26,7 +29,7 @@ struct SplitListView: View {
                         .fontWeight(.semibold)
                 }
             }
-            .navigationTitle("PPL 🏋🏼")
+            .navigationTitle("Angel's Split")
             .listStyle(.inset)
         }
         .onAppear{
