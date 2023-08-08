@@ -21,7 +21,7 @@ do by fetching data from an REST API using network calls.Integrated AppStorage/P
 
 
 ### Interactive Prototype
-![]()
+![](https://github.com/Angel39706/AngelsSplit/blob/main/MockUpViews/AngelsSplit.gif)
 
 ### Networking
 - API Personal Workout (JSON) : https://raw.githubusercontent.com/Angel39706/AngelsSplit/main/routine.json
