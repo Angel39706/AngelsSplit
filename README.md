@@ -23,8 +23,7 @@ do by fetching data from an REST API using network calls.Integrated AppStorage/P
  * shows 3 texts field of compound movements, users can implement their current record and save with userDefaults
 
 ### Digital Wireframes & Mockups
-![](https://github.com/Angel39706/AngelsSplit/blob/main/MockUpViews/AngelsSplit.png)
-![](https://github.com/Angel39706/AngelsSplit/blob/main/MockUpViews/PersonalRecord.png)
+![](https://github.com/Angel39706/AngelsSplit/blob/main/MockUpViews/AngelsSplit.png) | ![](https://github.com/Angel39706/AngelsSplit/blob/main/MockUpViews/PersonalRecord.png)
 
 
 ### Interactive Prototype
