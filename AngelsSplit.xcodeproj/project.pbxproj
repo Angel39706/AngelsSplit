@@ -42,6 +42,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B84B68B2999BC3A00A5DAAF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0BB306752995ED9E00E9961F /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0B84B68C2999BC6100A5DAAF /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0BA5700F29512BB4009C1D99 /* SplitTabView.swift */,
+				0B84B68E2999BD0700A5DAAF /* SplitListView */,
+				0B84B68F2999BD2200A5DAAF /* PersonalBestView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		0B84B68D2999BCC200A5DAAF /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				0BB306772995EF8400E9961F /* ASError.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		0B84B68E2999BD0700A5DAAF /* SplitListView */ = {
+			isa = PBXGroup;
+			children = (
+				0BC7ECF0297B8B6100A142D9 /* SplitListView.swift */,
+			);
+			path = SplitListView;
+			sourceTree = "<group>";
+		};
+		0B84B68F2999BD2200A5DAAF /* PersonalBestView */ = {
+			isa = PBXGroup;
+			children = (
+				0BC7ECF2297B8B7000A142D9 /* PersonalBestView.swift */,
+			);
+			path = PersonalBestView;
+			sourceTree = "<group>";
+		};
+		0B84B6902999BD5D00A5DAAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B36DDD3297B924100BD6E14 /* Split.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0BA5700129512BB4009C1D99 = {
 			isa = PBXGroup;
 			children = (
@@ -61,15 +111,13 @@
 		0BA5700C29512BB4009C1D99 /* AngelsSplit */ = {
 			isa = PBXGroup;
 			children = (
+				0B84B6902999BD5D00A5DAAF /* Model */,
+				0B84B68D2999BCC200A5DAAF /* Alert */,
+				0B84B68C2999BC6100A5DAAF /* Screens */,
+				0B84B68B2999BC3A00A5DAAF /* Managers */,
 				0BA5700D29512BB4009C1D99 /* AngelsSplitApp.swift */,
-				0BA5700F29512BB4009C1D99 /* SplitTabView.swift */,
 				0BA5701129512BB4009C1D99 /* Assets.xcassets */,
 				0BA5701329512BB4009C1D99 /* Preview Content */,
-				0BC7ECF0297B8B6100A142D9 /* SplitListView.swift */,
-				0BC7ECF2297B8B7000A142D9 /* PersonalBestView.swift */,
-				0B36DDD3297B924100BD6E14 /* Split.swift */,
-				0BB306752995ED9E00E9961F /* NetworkManager.swift */,
-				0BB306772995EF8400E9961F /* ASError.swift */,
 			);
 			path = AngelsSplit;
 			sourceTree = "<group>";
