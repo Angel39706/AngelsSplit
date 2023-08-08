@@ -50,14 +50,14 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		0B84B68C2999BC6100A5DAAF /* Screens */ = {
+		0B84B68C2999BC6100A5DAAF /* View */ = {
 			isa = PBXGroup;
 			children = (
 				0BA5700F29512BB4009C1D99 /* SplitTabView.swift */,
 				0B84B68E2999BD0700A5DAAF /* SplitListView */,
 				0B84B68F2999BD2200A5DAAF /* PersonalBestView */,
 			);
-			path = Screens;
+			path = View;
 			sourceTree = "<group>";
 		};
 		0B84B68D2999BCC200A5DAAF /* Alert */ = {
@@ -112,8 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				0B84B6902999BD5D00A5DAAF /* Model */,
+				0B84B68C2999BC6100A5DAAF /* View */,
 				0B84B68D2999BCC200A5DAAF /* Alert */,
-				0B84B68C2999BC6100A5DAAF /* Screens */,
 				0B84B68B2999BC3A00A5DAAF /* Managers */,
 				0BA5700D29512BB4009C1D99 /* AngelsSplitApp.swift */,
 				0BA5701129512BB4009C1D99 /* Assets.xcassets */,
